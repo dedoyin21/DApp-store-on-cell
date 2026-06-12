@@ -1,5 +1,5 @@
 import { ccc, Script } from "@ckb-ccc/core";
-import { cccClient } from "./ccc-client";
+import { cccClient } from "./ccc-client.js";
 
 type Account = {
   lockScript: Script;
